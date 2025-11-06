@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#playBtn {
+  top: 90%;
+  left: 45%;
+}
+
+#pauseBtn {
+  top: 90%;
+  left: 55%;
+}
+
+.container {
+  position: relative;
+}
+
+video {
+  width: 640px;
+  border-radius: 12px;
+}
+
+.control-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.control-btn:hover {
+  opacity: 0.8;
+}
